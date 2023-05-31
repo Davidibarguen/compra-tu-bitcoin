@@ -1,0 +1,47 @@
+
+.main--first-container{
+     
+    text-align: center;
+
+}
+.main--h2yp h2{
+  position: relative;
+  left: 50%;
+
+}
+
+
+
+.article-padre{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 0px 6px 0px  6px;
+    padding: 8px;
+    
+    width: 930px;
+    margin: 0px;
+}
+
+
+.section--estilo--cuadro{
+    display: flex;
+    justify-content:space-around;
+   
+
+}
+.article--estilo--cuadro{
+   width:320px;
+   padding: 8px;
+
+}
+.article--estilo--cuadro-2{
+    width:320px;
+}
+
+.article--estilo--cuadro-3{
+    width:320px;
+}
+
+
+

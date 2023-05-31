@@ -1,0 +1,992 @@
+/*
+1-pocisionamiento
+2-modelo de caja margin entre otros
+3-tipografia
+4-visuales sombra entre otros
+5-otros reglas cdd entre otro
+*/
+
+:root{
+    /*colores*/
+    --bitcoin-orange:#f7931a;
+    --soft-orange:#ffe9d5;
+    --secondary-blue:#1a9af7;
+    --soft-blue:#e7f5ff;
+    --warm-black:#201e1c;
+    --black:#282633;
+    --grey:#bababa;
+    --off-whithe:#faf8f7;
+    --just-whithe:#fff;
+}
+
+:root{  
+      /* tarjetas */
+
+
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header{
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+   justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+
+ 
+}
+header img{
+    width:150px;
+    height:30px;
+    margin-top: 60px;
+    align-self: center;
+   
+}
+
+.header--title-container{
+ text-align: center;
+ align-self: center;
+ min-width: 288px;
+ max-width: 900px;
+ margin-top: 40px;
+ width: 90%;
+}
+.header--title-container h1{
+    font-size: 2.5rem;
+    font-weight: medium;
+    line-height: 2.8rem;
+    color: var(--off-whithe);
+
+}
+.header--title-container p{
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+    color: var(--soft-orange);
+
+}
+
+.header--botton{
+    box-shadow: 5px 5px 2px rgb(243, 240, 240);
+    border-radius: 5px;
+    background-color: var(--just-whithe);
+    border: 0.2px solid rgb(221, 220, 220);
+    text-decoration: none;
+    font-size: 1.9rem;
+    font-weight: bold;
+    display: block;
+    position:absolute;
+    padding:6px;
+    top: 320px;
+    left:calc(50% - 125.5px);
+    width: 300px;
+    height:40px;
+    color:var(--warm-black);
+
+    margin-top:2px;
+   
+}
+
+.header--botton span{
+    display:inline-block;
+    width: 20px;
+    height: 13px;
+}
+
+/* aqui empieza la primera seccion de nuestra pagina  */
+
+main{
+  
+    width: 100%;
+    height: auto;
+   
+}
+.main--first-container{
+    display: inline;
+    margin: 5px;
+    padding-top: 80px;
+    padding-bottom:30px ;
+    height: auto;
+    width: 100%;
+   background-color: var(--off-whithe);
+
+}
+.main--h2yp{
+  
+    text-align: center;
+    width: 90%;
+    margin: 0px;
+    min-width: 288px;
+    max-width: 900px;
+}
+
+ .bacimg{
+    margin-bottom: 50px;
+   
+    height:200px;
+    margin:0% ;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  
+ }
+ .main--h2yp h2{
+    margin: 5px;
+    line-height: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color:var(--black);
+    text-align: center;
+
+
+ }
+
+ .main--h2yp p{
+    font-size: 1.5rem;
+    font-weight: medium;
+    text-align: center;
+    color: #757575;
+ }
+
+ .first--container--table{
+    display: flex;
+    overflow-x: scroll;
+    overscroll-behavior-x:contain;
+    
+    scroll-snap-align: center;
+   
+ }
+
+
+.section--table{
+  min-width:320px;
+  max-width: 902px;
+ width: 100%;
+ height: auto;
+ margin-top: 50px;
+ text-align: center;
+
+}
+.m{
+    
+    position: relative;
+    color: var(--bitcoin-orange);
+    right: 70px;
+   
+    padding: 20px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+
+ .main--table{ 
+    background-color:  var(--just-whithe);
+    color: var(--grey);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    border: 0.5px solid rgb(245, 244, 244);
+    border-radius: 7px;
+    margin-left: 80px;
+ 
+ }
+
+
+
+
+
+.caja-1{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+ 
+  
+}
+
+.caja-2{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+}   
+.caja-3{     
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-4{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-5{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-6{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-7{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-8{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-9{
+    position: relative;
+  left: calc(50% - 100px);
+    font-size: 1rem;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:200px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: var(--soft-orange);
+}
+
+.iconbaja{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+ 
+   
+}
+
+.section--2table{
+    min-width:320px;
+    max-width: 902px;  
+ width: 100%;
+ height: auto;
+ margin-top: 50px;
+ text-align: center;
+ padding-right: 5px;
+ 
+}
+.c{
+    position: relative;
+    color:var(--secondary-blue);
+    right: 70px;
+    padding: 20px;
+    font-size: medium;
+    font-weight: 700;
+}
+
+.main--2table{ 
+    background-color:  var(--just-whithe);
+    color: var(--grey);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    border: 0.5px solid rgb(245, 244, 244);
+    border-radius: 7px;
+    margin-left: 80px;
+ 
+ }
+
+ 
+.caja-10{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+ 
+  
+}
+
+.caja-11{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+}   
+.caja-12{     
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-13{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-14{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-15{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-16{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-17{
+    margin: 0px;
+    padding: 10px;
+    font-size: 2.4rem;
+    border: 0.5px solid rgb(245, 244, 244);
+
+}
+.caja-18{
+    position: relative;
+  left: calc(50% - 100px);
+    font-size: 1rem;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width:200px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color:var(--secondary-blue);
+}
+/* aqui finaliza la primer seccion de tablas  */
+
+/* empezamos a configurar la seccion blak */
+
+.main--section--black{
+    background-color: var(--warm-black);
+    margin-top: 5px;
+    padding: 20px 10px;
+    width: 100%;
+    height: auto;
+    position: relative;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.imagen--papa{
+    display: inline-block;
+    position: absolute;
+    top:-13px;
+    left:calc(50% - 20px);
+    width: 38px;
+    height: 30px;
+    background-image: url('../Downloads/papa.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main--section--title{
+    width: 100%;
+    padding:5px;
+    text-align: center;
+}
+
+.main--section--title h2{
+    color: var(--off-whithe);
+    margin-bottom: 10px;
+
+}
+.main--section--title p{
+   color: #757575;
+   font-weight: 400;
+   font-size: medium;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.article-1{
+    border-radius: 7px;
+    margin:10px;
+    background-color: var(--black);
+    padding: 5px;
+    max-width: 520px;
+    min-width: 320px;
+}
+.clock{
+  
+    background-image:url('../Downloads/imagenes2/iconos/clock.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 115, 0);
+
+}
+.article-1 h3{
+   
+    text-align: left;
+    font-size:1.8rem;
+    font-weight: bold;
+    color: var(--off-whithe);
+
+}
+
+.article-1 p{
+    text-align: center;
+    color: #757575;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.article-2{
+    border-radius: 7px;
+    margin:10px;
+    background-color: var(--black);
+    padding: 5px;
+    max-width: 520px;
+    min-width: 320px;
+
+}
+.eye{
+    background-image: url('../Downloads/imagenes2/iconos/eye\ 1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+}
+.article-2 h3{
+     
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--off-whithe);
+
+}
+.article-2 p{
+    text-align: center;
+    color: #757575;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+
+.article-3{
+    border-radius: 7px;
+    margin:10px;
+    background-color: var(--black);
+    padding: 5px;
+    max-width: 520px;
+    min-width: 320px;
+}
+.checkiut{
+    background-image: url('../Downloads/imagenes2/iconos/check-circle\ 1.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+}
+.article-3 h3{
+    text-align: left;
+    font-size:1.8rem;
+    font-weight: bold;
+    color: var(--off-whithe);
+
+}
+.article-3 p{
+    text-align: center;
+    color: #757575;
+    font-size: 1.8rem;
+    font-weight: 500;
+
+}
+
+.article-4{
+    border-radius: 7px;
+    margin:10px;
+    background-color: var(--black);
+    padding: 5px;
+    max-width: 520px;
+    min-width: 320px;
+  
+
+}
+.money{
+     background-image: url('../Downloads/imagenes2/iconos/dollar-sign\ 1.svg');
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+}
+
+.article-4 h3{
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--off-whithe);
+
+}
+.article-4 p{
+    text-align: center;
+    color: #757575;
+    font-size: 1.8rem;
+    font-weight: 500;
+    
+
+}
+
+/* aqui empieza la chica */
+.chica{
+    height:80vh;
+    width: 100%;
+    background-image: url('../Downloads/bitcoinbaby\ 1.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+
+}
+.chica h2{
+    padding-top: 30px;
+    font-size: 2.4rem;
+    color: var(--just-whithe);
+}
+/* aqui empieza las tres tarjetas */
+#main--plans{
+  width: 100%;
+  padding: 5px;
+  background-color: var(--off-whithe);
+  position: relative;
+}
+
+.container--for--h2yp{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+
+.container--for--h2yp h2{   
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    line-height: 20px;
+   margin-bottom:10px;
+}
+
+.container--for--h2yp p{
+    text-align: center;
+    font-size: medium;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--grey);
+
+}
+.recomen{
+    width:150px;
+    height:30px;
+    display: inline-block;
+    position:absolute;
+    top: -10px;
+    right: calc(50% - 80px);
+    padding: 5px;
+    border-radius: 6px;
+    background-color: var(--bitcoin-orange);
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+    
+}
+
+.section--estilo--cuadro{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--off-whithe);
+    gap: 20px;
+    height: 325px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type:x proximity ;
+}
+
+.article--estilo--cuadro{
+    position: relative;
+    scroll-snap-align: center;
+    width:250px;
+    min-width: 220px;
+    
+    height: 247px;
+    background-color: var(--just-whithe);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(211, 206, 206);
+    margin:auto 0 ;
+}
+
+.precioyh3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    max-width:350px;
+
+
+}
+
+ .anual--h3 {
+    
+   position: relative;
+  /* left:calc(50% - 50px); */
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #201E1C;
+    width:auto;
+    height: auto;
+
+}
+.precio99{
+    font-weight: bold;
+    font-size: 5.9rem;
+    margin-top: 10px;
+    padding: 3px;
+     position: relative;
+    
+}
+.precio99 span{
+     font-size: 1rem;
+     font-weight: 200;
+     position: absolute;
+     top:3px;
+}
+.ahorras{
+    text-align: center;
+    padding: 6px;
+    font-size:12px;
+    font-weight:500;
+    margin-top:10px;
+    position:relative;
+    color: #757575;
+     
+}
+
+.precioyh3--button{
+    width: 170px;
+    height: 40px;
+    background-color: #ffe9d5;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+    left: calc(50% - 90px);
+    
+    border-radius: 10px;
+    border: 1px solid var(--bitcoin-orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #201E1C;
+    line-height: 1.8rem;
+    
+}
+
+.precioyh3--button span{
+    background-image: url('../Downloads/imagenes2/flecha.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+    padding: 0%;
+    
+
+}
+
+
+
+
+.article--estilo--cuadro-2{
+    scroll-snap-align: center;
+    width:250px;
+    min-width: 220px;
+    height: 247px;
+    background-color: var(--just-whithe);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(211, 206, 206);
+    margin:auto 0 ;
+}
+
+.precioyh3-2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+
+}
+
+ .anual--h3-2{
+    
+   position: relative;
+  /* left:calc(50% - 50px); */
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #201E1C;
+    width:auto;
+    height: auto;
+
+}
+.precio120-2{
+    font-weight: bold;
+    font-size: 5.9rem;
+    margin-top: 10px;
+    padding: 3px;
+     position: relative;
+    
+}
+.precio120-2 span{
+     font-size: 1rem;
+     font-weight: 200;
+     position: absolute;
+     top:3px;
+}
+.ahorras-2{
+    text-align: center;
+    padding: 6px;
+    font-size:12px;
+    font-weight:500;
+    margin-top:10px;
+    position:relative;
+    color: #757575;
+     
+}
+
+.precioyh3--button-2{
+    width: 170px;
+    height: 40px;
+    background-color: #ffe9d5;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+    left: calc(50% - 90px);
+    
+    border-radius: 10px;
+    border: 1px solid var(--bitcoin-orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #201E1C;
+    line-height: 1.8rem;
+    
+}
+
+.precioyh3--button-2 span{
+    background-image: url('../Downloads/imagenes2/flecha.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+    padding: 0%;
+    
+
+}
+
+/* empieza la tercera tarjeta */
+
+.article--estilo--cuadro-3{
+    scroll-snap-align: center;
+    width:250px;
+    min-width: 220px;
+    height: 247px;
+    background-color: var(--just-whithe);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgb(211, 206, 206);
+    margin:auto 0 ;
+}
+
+.precioyh3-3{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+
+}
+
+ .anual--h3-3 {
+    
+   position: relative;
+  /* left:calc(50% - 50px); */
+    margin-top: 30px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: #201E1C;
+    width:auto;
+    height: auto;
+
+}
+.precio140-3{
+    font-weight: bold;
+    font-size: 5.9rem;
+    margin-top: 10px;
+    padding: 3px;
+     position: relative;
+    
+}
+.precio140-3 span{
+     font-size: 1rem;
+     font-weight: 200;
+     position: absolute;
+     top:3px;
+}
+.ahorras-3{
+    text-align: center;
+    padding: 6px;
+    font-size:12px;
+    font-weight:500;
+    margin-top:10px;
+    position:relative;
+    color: #757575;
+     
+}
+
+.precioyh3--button-3{
+    width: 170px;
+    height: 40px;
+    background-color: #ffe9d5;
+    margin-top: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:center;
+    position: relative;
+    left: calc(50% - 90px);
+    
+    border-radius: 10px;
+    border: 1px solid var(--bitcoin-orange);
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #201E1C;
+    line-height: 1.8rem;
+    
+}
+
+.precioyh3--button-3 span{
+    background-image: url('../Downloads/imagenes2/flecha.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+    padding: 0%;
+    
+
+}
+
+/* empieza el foter */
+.fr--footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+footer{
+    margin-top: 30px;
+    width:100%;
+    background-color: var(--bitcoin-orange);
+    height: 150px;
+}
+footer ul{
+margin-left: 40px;
+ list-style: none;
+ gap: 10px;
+ padding: 10px;
+}
+footer ul a {
+    font-weight:600;
+    font-size:medium;
+    margin: 7px;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+.icono--footer{
+    width: 60px;
+    height: 60px;
+    background-image: url('../Downloads/papa.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
